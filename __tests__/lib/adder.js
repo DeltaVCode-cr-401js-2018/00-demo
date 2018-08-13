@@ -1,10 +1,9 @@
-function adder(a, b) {
-  return a + b;
-}
+const adder = require('../../lib/adder');
+const zero = require('../../lib/zero');
 
 describe('adder', () => {
   it('can add zero and zero', () => {
-    expect(adder(0, 0)).toBe(0);
+    expect(adder(zero, zero)).toBe(0);
   });
 
   it('can add 1 and -1', () => {
