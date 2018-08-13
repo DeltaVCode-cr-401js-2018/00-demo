@@ -4,7 +4,7 @@
   "description": "00: Travis CI Demo ===",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/JohnMV13/00-demo/issues"
   },
-  "homepage": "https://github.com/JohnMV13/00-demo#readme"
+  "homepage": "https://github.com/JohnMV13/00-demo#readme",
+  "devDependencies": {
+    "jest": "^23.5.0"
+  }
 }
