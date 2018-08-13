@@ -3,7 +3,8 @@ node_js:
   - "node"
 
 script:
-  - travis_terminate 0
+  - npm test
+  - npm run lint
 
 notifications:
   email: false

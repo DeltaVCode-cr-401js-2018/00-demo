@@ -1,0 +1,25 @@
+{
+  "name": "00-demo",
+  "version": "1.0.0",
+  "description": "00: Travis CI Demo\r ===",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "test:watch": "jest --watch",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dahlbyk-demo/00-demo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dahlbyk-demo/00-demo/issues"
+  },
+  "homepage": "https://github.com/dahlbyk-demo/00-demo#readme",
+  "devDependencies": {
+    "eslint": "^5.3.0",
+    "jest": "^23.5.0"
+  }
+}
