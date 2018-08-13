@@ -1,5 +1,5 @@
 console.log('Hello From Jest');
-
+//can use test('whatever here', => {}) instead of describe
 describe('Jest', () => {
   it('can run tests', () => {
     console.log('Hello From Test');
