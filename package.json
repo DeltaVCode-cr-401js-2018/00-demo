@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/dahlbyk-demo/00-demo#readme",
   "devDependencies": {
+    "eslint": "^5.3.0",
     "jest": "^23.5.0"
   }
 }
