@@ -4,6 +4,7 @@
   "description": "00: Travis CI Demo\r ===",
   "main": "index.js",
   "scripts": {
+    "lint": "eslint .",
     "test:watch": "jest --watch",
     "test": "jest"
   },
