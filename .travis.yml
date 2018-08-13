@@ -3,7 +3,7 @@ node_js:
   - "node"
 
 script:
-  - travis_terminate 1
+  - npm test
 
 notifications:
   email: false
